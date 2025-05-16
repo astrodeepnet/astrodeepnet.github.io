@@ -29,4 +29,4 @@ Live recordings of the talks available on [our YouTube channel](https://www.yout
 > Mai 20–23, 2025  
 > Astroparticule & Cosmologie, Paris + remote (hybrid meeting)
 
-Registration information coming soon.
+Registration closed. Recording of the talks will be available after the workshop.
