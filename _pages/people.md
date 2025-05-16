@@ -11,7 +11,7 @@ permalink: /people/
 - Eric Aubourg (**P.I.**) – _researcher_
 - [Alexandre Boucaud](https://aboucaud.github.io) – _software engineer_
 - Cécile Cavet – _software engineer_
-<!-- - Kirill Grishin – _postdoc (2024-2025)_ -->
+- Kirill Grishin – _postdoc (2025-2026)_
 - Wassim Kabalan – _grad student (2023-2026)_
 - Maude Le Jeune – _software engineer_
 - Marina Ricci – _researcher_
