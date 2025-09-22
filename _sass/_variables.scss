@@ -1,3 +1,6 @@
+@use "sass:math";
+@use "sass:color";
+
 // COLORS ====================================
 
 // COLORS - INDEX ------------------
@@ -8,8 +11,8 @@ $gray-lighter:              #eceeef;
 $gray-lightest:             #fafaf8;
 
 $blue:                      #4072AF;
-$light-blue:                lighten($blue, 45%);
-$dark-blue:                 darken($blue, 20%);
+$light-blue:                color.adjust($blue, $lightness: 45%);
+$dark-blue:                 color.adjust($blue, $lightness: -20%);
 
 $ligt-yellow:               #fcf8e3;
 
@@ -34,7 +37,7 @@ $link-hover-decoration:     underline;
 
 // GLOBALS - SPACERS ------------------
 $spacer:                    1rem;
-$spacer0:                   $spacer/2;
+$spacer0:                   math.div($spacer, 2);
 $spacer1:                   $spacer * 1.5;
 $spacer2:                   $spacer * 2;
 $spacer3:                   $spacer * 2.5;
@@ -83,7 +86,7 @@ $mq-breakpoints: (
 );
 
 $container-widths: (
-  sm: 620px,
-  md: 748px
+  sm: 720px,
+  md: 940px
 );
 

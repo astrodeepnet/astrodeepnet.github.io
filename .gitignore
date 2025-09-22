@@ -4,3 +4,5 @@ test/
 AUDIT.md
 TASKS.md
 LIGHTHOUSE*
+vendor/*
+.bundle
