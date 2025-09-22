@@ -1,3 +1,6 @@
 _site/
 test/
 *.bak
+AUDIT.md
+TASKS.md
+LIGHTHOUSE*
