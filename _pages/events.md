@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Workshops
-subtitle: Workshops
-desc: List of past or upcoming workshops
-permalink: /workshops/
+title: Events
+subtitle: Events
+desc: List of past or upcoming events
+permalink: /events/
 ---
 
 ### [Bayesian deep learning for Cosmology and Gravitational Waves – 1st edition](https://astrodeep.net/workshop2020/){:target="_blank":rel="noopener noreferrer"}
@@ -11,7 +11,7 @@ permalink: /workshops/
 > March 4-6, 2020  
 > Astroparticule & Cosmologie, Paris
 
-Videos from the workshop now available !
+Videos from the workshop are available directly on the website.
 
 ---
 
@@ -29,4 +29,4 @@ Live recordings of the talks available on [our YouTube channel](https://www.yout
 > Mai 20–23, 2025  
 > Astroparticule & Cosmologie, Paris + remote (hybrid meeting)
 
-Registration closed. Recording of the talks will be available after the workshop.
+Recording of the talks will be available soon.

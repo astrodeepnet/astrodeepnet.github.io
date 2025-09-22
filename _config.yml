@@ -38,9 +38,9 @@ navigation:
   # - title: Articles
     # url: /articles/
     # desc: Publications from AstroDeep members
-  - title: Workshops
-    url: /workshops/
-    desc: Workshops land page
+  - title: Events
+    url: /events/
+    desc: Events landing page
   - title: Jobs
     url: /jobs/
     desc: Job offers from student internship to postdocs and engineers
