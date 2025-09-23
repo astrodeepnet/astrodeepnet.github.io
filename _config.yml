@@ -29,18 +29,21 @@ paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf
 # Used to define the navigation menu items
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
-  - title: Projects
+  - title: About
     url: /projects/
-    desc: Current projects
+    desc: Learn more about AstroDeep project
   - title: Team
     url: /people/
     desc: The AstroDeep team
+  - title: Publications
+    url: /publications/
+    desc: List of publications
   # - title: Articles
     # url: /articles/
     # desc: Publications from AstroDeep members
   - title: Events
     url: /events/
-    desc: Events landing page
+    desc: List of organised events and recordings
   - title: Jobs
     url: /jobs/
     desc: Job offers from student internship to postdocs and engineers
