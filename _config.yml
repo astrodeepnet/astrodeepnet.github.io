@@ -32,7 +32,7 @@ navigation:
   - title: Projects
     url: /projects/
     desc: Current projects
-  - title: People
+  - title: Team
     url: /people/
     desc: The AstroDeep team
   # - title: Articles

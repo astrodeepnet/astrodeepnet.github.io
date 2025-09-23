@@ -34,14 +34,14 @@
 .grid .one-quarter,
 .grid .one-fourth       { width: 25%; }
 .grid .three-quarters,
-.grid .three-fourths,   { width: 75%; }
-.grid .one-fifth,       { width: 20%; }
-.grid .two-fifths,      { width: 40%; }
-.grid .three-fifths,    { width: 60%; }
-.grid .four-fifths,     { width: 80%; }
-.grid .one-heights,     { width: 12.5%; }
-.grid .golden-small,    { width: 38.2716%; }
-.grid .golden-large,    { width: 61.7283%; }
+.grid .three-fourths   { width: 75%; }
+.grid .one-fifth       { width: 20%; }
+.grid .two-fifths      { width: 40%; }
+.grid .three-fifths    { width: 60%; }
+.grid .four-fifths     { width: 80%; }
+.grid .one-heights     { width: 12.5%; }
+.grid .golden-small    { width: 38.2716%; }
+.grid .golden-large    { width: 61.7283%; }
 
 @include mq-down (sm) {
   /* Stack anything that isn't full-width on smaller screens
