@@ -5,4 +5,4 @@ permalink: jobs/thesis-loria/
 subtitle: Thesis position on probabilistic representation learning
 ---
 
-### Started in November 2019 by Thomas Theobald.
+### Started in November 2019 by Claire Theobald.
