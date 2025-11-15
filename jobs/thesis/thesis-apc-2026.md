@@ -12,7 +12,7 @@ During the last decade, cosmology has entered a precision era, leading to the pr
 
 These surveys, when combined, will map thousands of square degrees of sky in a multiwavelength manner with sub-arcsec resolution. This will result in the detection of several tens of billions of sources, enabling a wide range of astrophysical investigations and providing unprecedented constraints on the nature of dark energy and dark matter. The scope of the PhD topic, based in the LSST dark energy science collaboration and LSST Informatics and Statistics Science Collaboration context, will aim to bring new developments for the treatment of cosmic shear. More precisely, the PhD topic discussed here (and the preceding internship) will focus on the detection of sources and treatment of so-called unrecognized blends. We will use machine learning approaches that we want to build into Bayesian pipelines. This is the context of our “AstroDeep” ANR funding, and the direction taken by our research team for the past few years. This PhD topic will be funded as well by this grant.  
 
-##Scientific context : 
+### Scientific context : 
 
 The gravitational lensing corresponds to the deflection of light from distant sources (background galaxies) due to the bending of space-time by matter along the line of sight, resulting in  distortions and displacements of their image. The statistical study of weak gravitational lensing distortions at large scales provides a “mapping” of the matter (dark or visible) between the observer and source (well, more accurately, the effect we want to study is the one of the small and coherent deformation of background galaxies following the principle described here and which is called cosmic shear). The measurement of cosmic shear (and its combination with other probes) gives a window on the properties and the evolution of cosmic structures as well as the geometry of the Universe. Its study can therefore bring higher constraints on the origin of the current accelerated expansion of the Universe that led to the notion of dark energy. **In the absence of systematic errors, weak lensing is even recognised as the single most constraining probe of dark energy. As such, its analysis is one of the main science drivers for both LSST and Euclid**. 
 
@@ -33,13 +33,13 @@ As the sources are not correctly detected the blended scene flag is not even rai
 
 **During the pre-thesis internship**, the main topic to pursue would be to enter the topic, familiarize with the existing architectures that have been developed in the group and get to a first treatment of a simulated field of galaxies for a probabilistic detection of sources.
 
-##Local Context : 
+### Local Context : 
 
 From a local environment perspective, this PhD will occur in the scope of the AstroDeep project started in October 2019 at APC and that has started a follow up ANR funding in 2024. AstroDeep has been a pioneer in Bayesian deep learning techniques, with applications for handling blending in deep surveys, and simulation-based inference. The group has strong ties with the Rubin/LSST Dark Energy Science Collaboration (LSST-DESC) and the LSST Informatics & Statistics Science Collaboration (ISCC). The research will be conducted in connection with working groups from these collaborations.
 
 If successful, the implications of this work could drastically reduce the bias on cosmic shear measurements and release an essential tool for observational cosmology to the community. Not to mention that **LSST and Euclid data are becoming available for science**, making these studies all the more interesting as the scientific environment will be extremely dynamic.
 
-##Proposed research activities :
+### Proposed research activities :
 
 The research will build on our previous work on deblending galaxies and measuring galaxy parameters with modified variational autoencoders ([2], [3], past PhD of Bastien Arcelin and PhD in progress by Anna Preto). It will address the key question of unrecognized blends: missing a galaxy during the deblending process would bias the measurements on the other galaxies, as would, on the other way, considering as a galaxy what is pure noise in the images. A solution is not to decide deterministically the number of galaxies in a group, but keep it as a discrete probabilistic measure, and for each hypothesis measure the properties of each detected galaxy. New ways to represent this information will have to be defined, and existing software will have to be adapted.
 
