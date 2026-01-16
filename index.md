@@ -3,17 +3,22 @@ layout: default
 ---
 
 <div class="lead pretty-links">
-  Welcome to the ___AstroDeep___ website.
 
-  {::nomarkdown}
-  <figure class="site-profile">
-      <img src="{{ site.baseurl }}/assets/img/logo-astrodeep-zoom.png">
-  </figure>
-  {:/}
-  
-  This ANR project, initiated in November 2019 and renewed in November 2024, gathers a [team of researchers](people/) applying Bayesian deep nets to cosmology.  
-  The list of our current projects and publications can be found [here](projects/).  
-  We have several positions available to work with us, have a look at the [jobs section](jobs/).
+# Welcome to the __AstroDeep__ website
 
-  To get in touch with us, head over to the [contact page](contact/).
+{::nomarkdown}
+<figure class="site-profile">
+    <img width=800px src="{{ site.baseurl }}/assets/img/logo-astrodeep-zoom.png" alt="AstroDeep logo">
+</figure>
+{:/}
+
+<br>
+We are [a team of researchers and engineers](people/), sponsored by the [French ANR](https://anr.fr/en/), interested in applying Bayesian deep learning to cosmology.
+
+Learn about our [current projects and core values](about/) ►
+
+Check out [our publications](publications/) and our [workshops](events/).
+
+[Come work with us !](jobs/)
+
 </div>
