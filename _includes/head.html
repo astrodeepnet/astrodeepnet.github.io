@@ -11,9 +11,18 @@
   </title>
 
   <!-- SEO metas -->
-  {% assign page_title = page.title | default: site.title %}
-  {% assign page_desc = page.desc | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.desc %}
-  {% assign page_image = page.image | default: "/assets/img/logo-astrodeep.png" | prepend: site.baseurl | prepend: site.url %}
+  {% assign page_title = page.title | default: site.title | escape %}
+  {% if page.desc %}
+    {% assign page_desc = page.desc | escape %}
+  {% elsif page.excerpt %}
+    {% assign page_desc = page.excerpt | strip_html | strip_newlines | truncate: 160 | escape %}
+  {% else %}
+    {% assign page_desc = site.desc | escape %}
+  {% endif %}
+  {% assign page_image = page.image | default: "/assets/img/logo-astrodeep.png" %}
+  {% unless page_image contains "://" %}
+    {% assign page_image = page_image | prepend: site.baseurl | prepend: site.url %}
+  {% endunless %}
   {% assign page_canonical = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
   <meta name="description" content="{{ page_desc }}">
   <link rel="canonical" href="{{ page_canonical }}">
